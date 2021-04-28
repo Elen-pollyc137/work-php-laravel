@@ -21,25 +21,25 @@
         @csrf
         @method('POST')
           <div class="form-group">
-            <label for="formGroupExampleInput">Name</label>
-            <input type="text" name="name" class="form-control " id="formGroupExampleInput" placeholder="Input exemplo">
+            <label for="formGroupExampleInput">Nome</label>
+            <input type="text" name="name" class="form-control " id="formGroupExampleInput" placeholder="Nome do Produto">
           </div>
 
           <div class="form-group">
-            <label for="formGroupExampleInput2">Value Purchase</label>
-            <input type="text" name="purchase" class="form-control" id="formGroupExampleInput2" placeholder="Outro input">
+            <label for="formGroupExampleInput2">Valor de Compra</label>
+            <input type="text" name="purchase" class="form-control" id="formGroupExampleInput2" placeholder="Valor de Compra Produto">
           </div>
           <div class="form-group">
-            <label for="formGroupExampleInput">Sale Price</label>
-            <input type="text" name="sale" class="form-control" id="formGroupExampleInput" placeholder="Input exemplo">
+            <label for="formGroupExampleInput">Preco de Venda</label>
+            <input type="text" name="sale" class="form-control" id="formGroupExampleInput" placeholder="Valor de Venda do Produto">
           </div>
           <div class="form-group">
-            <label for="formGroupExampleInput2">Amount</label>
-            <input type="text" name="amount" class="form-control" id="formGroupExampleInput2" placeholder="Outro input">
+            <label for="formGroupExampleInput2">Quantidade</label>
+            <input type="text" name="amount" class="form-control" id="formGroupExampleInput2" placeholder="Quantidade">
           </div>
           <div class="form-group">
-            <label for="formGroupExampleInput">Description</label>
-            <input type="text" name="description" class="form-control" id="formGroupExampleInput" placeholder="Input exemplo">
+            <label for="formGroupExampleInput">Descrição</label>
+            <input type="text" name="description" class="form-control" id="formGroupExampleInput" placeholder="Descrição">
           </div>
           <button type="submit" class="btn btn-primary">Register</button>
         </form>

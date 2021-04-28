@@ -20,24 +20,24 @@
         @csrf
         @method('PUT')
           <div class="form-group">
-            <label for="formGroupExampleInput">Name</label>
+            <label for="formGroupExampleInput">Nome</label>
             <input value="{{$product->name}}" type="text" name="name" class="form-control" id="formGroupExampleInput" placeholder="Input exemplo">
           </div>
 
           <div class="form-group">
-            <label for="formGroupExampleInput2">Value Purchase</label>
+            <label for="formGroupExampleInput2">Valor de Compra</label>
             <input value="{{$product->purchase}}" type="text" name="purchase" class="form-control" id="formGroupExampleInput2" placeholder="Outro input">
           </div>
           <div class="form-group">
-            <label for="formGroupExampleInput">Sale Price</label>
+            <label for="formGroupExampleInput">Valor de Venda</label>
             <input value="{{$product->sale}}" type="text" name="sale" class="form-control" id="formGroupExampleInput" placeholder="Input exemplo">
           </div>
           <div class="form-group">
-            <label for="formGroupExampleInput2">Amount</label>
+            <label for="formGroupExampleInput2">Quantidade</label>
             <input value="{{$product->amount}}" type="text" name="amount" class="form-control" id="formGroupExampleInput2" placeholder="Outro input">
           </div>
           <div class="form-group">
-            <label for="formGroupExampleInput">Description</label>
+            <label for="formGroupExampleInput">Descrição</label>
             <input value="{{$product->description}}" type="text" name="description" class="form-control" id="formGroupExampleInput" placeholder="Input exemplo">
           </div>
           <button type="submit" class="btn btn-primary">Register</button>

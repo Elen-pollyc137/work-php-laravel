@@ -4,6 +4,6 @@
 
 @section('content')
 
-<h1>subir</h1>
+<h1 class="text-center">Bem vindo ao cadastro de produtos e clientes</h1>
 @endsection
 
